@@ -1,0 +1,149 @@
+*{
+    font-family: Ubuntu;
+}
+
+
+#header{
+    color: #fff;
+    background: #e74c3c;
+    box-shadow:7px 7px 20px black;
+    border-radius: 2px;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+    
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display:inline-block;
+}
+#menu li a{
+    text-decoration: none;
+    /* background: #c0392b; */
+    padding: 15px 10px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+}
+#menu li a:hover{
+     background: #c0392b; 
+}
+
+#safal{
+   margin-top: 10px;
+   /* border: 2px solid rebeccapurple; */
+}
+#safal h2{
+    text-align: center;
+    color:#ecf0f1;
+    border-bottom: 3px solid #3498db;
+}
+#safal p{
+    padding-top: 2rem;
+  font-weight: 100;
+}
+#s{
+    background: gray;
+    padding: 12px;
+    background: #2980b9;
+    text-transform: uppercase;
+    box-shadow: -5px 4.5px 7px black;
+    
+}
+#ss{
+    background: gray;
+    padding: 12px;
+    background: #2980b9;
+    text-transform: uppercase;
+    box-shadow: -5px 4.5px 7px black;
+    
+
+}
+#sss{
+    background: gray;
+    padding: 12px;
+    background: #2980b9;
+text-transform: uppercase;
+box-shadow: -5px 4.5px 7px black;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn button{
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px black;
+}
+.oo{
+    background:#34495e;
+}
+.oo p{
+    color: white;
+    margin-top: 1.5rem;
+    
+
+}
+.oo img{
+    height: 5.5rem;
+    width: 6rem;
+    border-radius: 65px;
+    margin-left: 45px;
+    
+}
+footer{
+    background:#ff4757;
+
+}
+footer h3{
+    color:#2f3542;
+}
+footer p{
+    margin-left: 20px;
+    color:#dfe4ea;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.s{
+    text-align: center;
+}
+
+footer img{
+    margin-top: 20px;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2px;
+    
+}
+#d{
+    color:#2c3e50;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 2px 2px;
+}
+#sw{
+    background: #2980b9;
+    border-radius: 12x;
+}
+@media screen and  (max-width:520px){
+    #menu li a{
+        padding:0px;
+        margin:;
+        display: none;
+    }
+    footer img{
+        padding-right: 25px;
+        margin-top:2px;
+    }  
+    
+    
+    
+
+}
